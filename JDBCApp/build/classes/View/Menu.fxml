@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="227.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MenuController">
+   <children>
+      <Button fx:id="CustomerBtn" layoutX="16.0" layoutY="64.0" mnemonicParsing="false" onAction="#onClickCustomer" prefHeight="50.0" prefWidth="96.0" text="Customer" />
+      <Button fx:id="aptBtn" layoutX="114.0" layoutY="64.0" mnemonicParsing="false" onAction="#onClickAptBtn" prefHeight="50.0" prefWidth="96.0" text="Appointment" />
+      <Button fx:id="userBtn" layoutX="66.0" layoutY="148.0" mnemonicParsing="false" onAction="#onClickUsrBtn" prefHeight="50.0" prefWidth="96.0" text="Logs" />
+      <Button fx:id="exitBtn" layoutX="154.0" layoutY="219.0" mnemonicParsing="false" onAction="#onClickExitBtn" prefHeight="24.0" prefWidth="51.0" text="Exit" />
+      <Text fx:id="mainMenuText" layoutX="66.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Menu" wrappingWidth="113.46996307373047">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AppointmentController">
+   <children>
+      <TableView fx:id="TableView" layoutX="20.0" layoutY="82.0" prefHeight="200.0" prefWidth="630.0">
+        <columns>
+          <TableColumn fx:id="aptStartCol" prefWidth="111.99999523162842" text="Start" />
+          <TableColumn fx:id="aptEndCol" prefWidth="97.33324432373047" text="End" />
+            <TableColumn fx:id="aptTitleCol" prefWidth="97.33326721191406" text="Title" />
+            <TableColumn fx:id="aptTypeCol" prefWidth="76.6666259765625" text="Type" />
+            <TableColumn fx:id="aptCusId" prefWidth="139.0" text="Customer ID" />
+            <TableColumn fx:id="dateCol" prefWidth="105.0" text="Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="editAptBtn" layoutX="510.0" layoutY="325.0" mnemonicParsing="false" onAction="#editAptBtnHandler" text="Edit" />
+      <Button fx:id="deleteAptBtn" layoutX="590.0" layoutY="325.0" mnemonicParsing="false" onAction="#deleteAptBtnHandler" text="Delete" />
+      <RadioButton fx:id="monthRadioButton" layoutX="47.0" layoutY="22.0" mnemonicParsing="false" onAction="#monthRadioButtonHandle" text="Month" />
+      <RadioButton fx:id="weekRadioButton" layoutX="47.0" layoutY="56.0" mnemonicParsing="false" onAction="#weekRadioButtonHandle" text="Week" />
+      <Button fx:id="mainMenuBtn" layoutX="47.0" layoutY="325.0" mnemonicParsing="false" onAction="#mainMenuBtnHandler" text="Main Menu" />
+      <Button fx:id="typeMonth" layoutX="133.0" layoutY="325.0" mnemonicParsing="false" onAction="#typeMonthHandler" text="View appointment Types by Month" />
+      <Button layoutX="346.0" layoutY="325.0" mnemonicParsing="false" onAction="#allAptHandler" text="View All Appointments" />
+      <ComboBox fx:id="typeComboBox" layoutX="159.0" layoutY="350.0" prefWidth="150.0" promptText="Appointment Type" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/CustomerController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/Customer.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/User.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/DataProvider.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/Loop.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/jdbcapp/Nat_fr.properties</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/AlertMessage.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/AppointmentController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/jdbcapp/JDBCApp.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/EditCustomerController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/MenuController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/EditAppointmentController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/View/LoginScreenController.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/utils/DBConnection.java</file>
+            <file>file:/C:/Users/Brian/Documents/NetBeansProjects/JDBCApp/src/Model/Appointment.java</file>
+        </group>
+    </open-files>
+</project-private>
