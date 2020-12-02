@@ -1,7 +1,7 @@
 # WGU-Software-II-Project
 This is a scheduling application
 
-I was feeling solicitous when turning this into the grading team. The reason why is that there is some spaghetti code in there.  This version did pass all the requirements of the automated grading script that they use to test program functionally! Please reach out to me if you have questions about this project. Thank you for viewing.
+You can create a schedule using this application. It ensures you don't overlap times and quries your operating system for the current timezone. The application will automatically convert times from different timezones so the user does not have to. 
 
 The username and password are:
 
